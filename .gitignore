@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Sensitive config (copy config.example.php → config.php and fill in your values)
+includes/config.php
+
+# User uploads — ticket photos, CFDI XML/PDF, screenshots (generated at runtime)
+uploads/*
+!uploads/.gitkeep
+
+# Temp / OS files
+*.crdownload
+.DS_Store
+/tmp/
